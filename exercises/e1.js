@@ -5,7 +5,12 @@
 
 export function getFirstTenNumbers() {
   // Your code goes here...
-
+for (let i = 0; i < 11;  i++) {
+      if (i % 1 === 0) {
+        console.log(i);
+      }
+      
+}
 }
 
 // === TEST YOURSELF ===
