@@ -1,12 +1,11 @@
+import { data } from "../data/data";
 
-// EXERCISE 12
-// Return an array of all deposits greater than 100
-// Array example: bankAccounts in /data/data.js
-// getAllDepositsGreaterThanOneHundred(bankAccounts) => [3432, 43242.34, 23432]
+// SPACE DATA EXERCISE 12
+// Return the sum of all moons for all planets
+// Return example: 42
 
-export function getAllDepositsGreaterThanOneHundred(array) {
+export function allPlanetsMoonsCount(data) {
   // Your code goes here...
-
 }
 
 

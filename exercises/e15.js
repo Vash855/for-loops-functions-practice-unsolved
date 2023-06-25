@@ -1,12 +1,11 @@
+import { data } from "../data/data";
 
-// EXERCISE 15
-// Please, read the exercise-info/concat.md to get the initial data of what is the expected result of this exercise.
-// concatArrays(['d', 'r', 'a'], ['f', 'y']) => ['d', 'r', 'a', 'f', 'y']
-// NOTE: You can NOT use the array.concat() method in your code
+// SPACE DATA EXERCISE 15
+// Return an array of Planets' names without moons
+// Return example: ['name1', 'name2', ... , 'nameN']
 
-export function concatArrays(arr1, arr2) {
+export function getPlanetsWithNoMoons(data) {
   // Your code goes here...
-
 }
 
 

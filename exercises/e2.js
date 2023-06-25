@@ -1,11 +1,14 @@
-// EXERCISE 2
-// for every number between 0 and max find all numbers that have square roots that are integers
-// getNumbersWithSquareRoots(17) => [0, 1, 4, 9, 16]
+import { data } from "../data/data";
 
-export function getNumbersWithSquareRoots(max) {
-  // Your code goes here...
+// SPACE DATA EXERCISE 2
+// Return an array of all Asteroids' names
+// Return example: ['name1', 'name2', ... , 'nameN']
 
+export function getAsteroidNames(data) {
+  return data.asteroids.map(obj => obj.name)
 }
+
+
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"

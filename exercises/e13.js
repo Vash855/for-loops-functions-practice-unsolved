@@ -1,12 +1,11 @@
+import { data } from "../data/data";
 
-// EXERCISE 13
-// Return an array of bank accounts that have a sum of deposits less than 2000 or no deposits at all
-// Array example: bankAccounts in /data/data.js
-// getAllAccountsWithSumsOfDepositsLess2000(bankAccounts) => [3432, 43242.34, 23432]
+// SPACE DATA EXERCISE 13
+// Return the average temperature of all the Planets
+// Return example: 132.53
 
-export function getAllAccountsWithSumsOfDepositsLess2000(array) {
+export function getAveragePlanetsTemperature(data) {
   // Your code goes here...
-
 }
 
 

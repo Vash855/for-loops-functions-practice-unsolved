@@ -1,12 +1,14 @@
-// EXERCISE 7
-// Return an array with a bank account object with the lowest balance but not broke ( balance > 0 )
-// Array example: bankAccounts in /data/data.js
-// getClientWithLeastBalance(bankAccounts) => [{ name: 'SomeName', balance: 32, ... }]
+import { data } from "../data/data";
 
-export function getClientWithLeastBalance(array) {
+// SPACE DATA EXERCISE 7
+// Return an array of all Planets names that have moons
+// Return example: ['name1', 'name2', ... , 'nameN']
+
+export function getPlanetsNamesWithMoons(data) {
   // Your code goes here...
-
 }
+
+
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-7"

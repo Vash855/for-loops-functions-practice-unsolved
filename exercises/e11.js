@@ -1,11 +1,12 @@
-// EXERCISE 11
-// Return an array of withdrawal sums of each bank account
-// Array example: bankAccounts in /data/data.js
-// getAllWithdrawals(bankAccounts) => [3432, 43242.34, 23432]
+import { data } from "../data/data";
 
-export function getAllWithdrawals(array) {
+// SPACE DATA EXERCISE 11
+// Return an array of Planets' names with less than 10 moons
+// include planets with 0 moons
+// Return example: ['name1', 'name2', ... , 'nameN']
+
+export function lowMoonsPlanets(data) {
   // Your code goes here...
-
 }
 
 // === TEST YOURSELF ===

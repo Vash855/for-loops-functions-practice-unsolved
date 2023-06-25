@@ -1,13 +1,11 @@
+import { data } from "../data/data";
 
-// EXERCISE 14
-// The balance is supposed to equal the difference of all deposits and all withdrawals.
-// Check every bank account balance and return the array of bank accounts with a wrong balance
-// Array example: bankAccounts in /data/data.js
-// getClientsWithWrongBalance(bankAccounts) => [{ name: 'Name1', balance: 32, ... }, { name: 'Name2', balance: 3523, ... }]
+// SPACE DATA EXERCISE 14
+// Return the sum of orbital periods of all asteroids
+// Return example: 234234.234
 
-export function getClientsWithWrongBalance(array) {
+export function getOrbitalPeriodsSum(data) {
   // Your code goes here...
-
 }
 
 

@@ -1,12 +1,14 @@
+import { data } from "../data/data";
 
-// EXERCISE 1
-// Return an array of numbers in 1..10
-// getFirstTenNumbers() => [1, 2, 3, ... , 10]
+// SPACE DATA EXERCISE 1
+// Return an array of all Planets' names
+// Return example: ['name1', 'name2', ... , 'nameN']
 
-export function getFirstTenNumbers() {
-  // Your code goes here...
-
+export function getPlanetNames(data) {
+  return data.planets.map(obj => obj.name)
 }
+
+
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"

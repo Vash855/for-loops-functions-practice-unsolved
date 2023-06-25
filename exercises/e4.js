@@ -1,15 +1,14 @@
-// EXERCISE 4
-// Return the MIN and the MAX value in the given array of numbers
-// findMinValueInArray([2, 45, 32, 3, 0, 46, 12]) => 0
-// findMaxValueInArray([2, 45, 32, 3, 0, 46, 12]) => 46
+import { data } from "../data/data";
 
-export function findMinValueInArray(array) {
-  // Your code goes here...
+// SPACE DATA EXERCISE 4
+// Return an array of Planets' names with gravity less than 10
+// Return example: ['name1', 'name2', ... , 'nameN']
+
+export function getPlanetsWithLowGravity(data) {
+return data.planets.filter(name => name.gravity < 10).map(obj => obj.name)
 }
 
-export function findMaxValueInArray(array) {
-  // Your code goes here...
-}
+
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
