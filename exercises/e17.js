@@ -1,22 +1,15 @@
-/**
- * Make sure to read the e17.md file!
- * For this exercise we want you to make custom `maxBy` and `minBy` methods. 
- * In order to do this it is ok to use any type of FOR loops. 
- * REQUIREMENTS: functions should:
- * * Take an array of things
- * * minBy(): Return the element where the callback function on that element yields the lowest value
- * * maxBy(): Return the element where the callback function on that element yields the highest value
- */
 
-export function minBy(array, cb) {
+// EXERCISE 17
+// Please, read the exercise-info/includes.md to get the initial data of what is the expected result of this exercise.
+// doesArrayInclude(['a', 'b', 'c'], 'a') => true
+// doesArrayInclude(['a', 'b', 'c'], 'f') => false
+// NOTE: You can NOT use the array.includes() method in your code
+
+export function doesArrayInclude(array, value) {
   // Your code goes here...
 
 }
 
-export function maxBy(array, cb) {
-  // Your code goes here...
-
-}
 
 
 // === TEST YOURSELF ===

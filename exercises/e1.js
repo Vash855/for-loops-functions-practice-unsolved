@@ -1,13 +1,14 @@
-import { data } from "../data/data";
 
-// SPACE DATA EXERCISE 1
-// Return an array of all Planets' names
-// Return example: ['name1', 'name2', ... , 'nameN']
-
-export function getPlanetNames(data) {
-  return data.planets.map(obj => obj.name)
-}
-
+// EXERCISE 1
+// Return an array of numbers in 1..10
+// getFirstTenNumbers() => [1, 2, 3, ... , 10]
+let arr = []
+export function getFirstTenNumbers() {
+  // Your code goes here...-
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  return numbers;
+    
+  }
 
 
 // === TEST YOURSELF ===

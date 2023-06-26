@@ -1,11 +1,12 @@
-import { data } from "../data/data";
 
-// SPACE DATA EXERCISE 8
-// Return a Planet name by a given moon name
-// Return example: 'Planet Name'
+// EXERCISE 8
+// Return an array with a bank account object with the greatest balance value
+// Array example: bankAccounts in /data/data.js
+// getClientWithGreatestBalance(bankAccounts) => [{ name: 'SomeName', balance: 32, ... }]
 
-export function findPlanetNameByMoon(data, moonName) {
+export function getClientWithGreatestBalance(array) {
   // Your code goes here...
+
 }
 
 

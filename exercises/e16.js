@@ -1,18 +1,15 @@
-/**
- * Make sure to read the e16.md file!
- * For this exercise we want you to make a custom `find` method. 
- * In order to do this it is ok to use any type of FOR loops.
- * REQUIREMENT: A find function should
- * * Take an array of things
- * * Return a the first thing where the applied callback is truthey
- * The function MUST NOT use the find() method.
- */
 
+// EXERCISE 16
+// Please, read the exercise-info/flat.md to get the initial data of what is the expected result of this exercise.
+// Array example: flatArraysData in /data/data.js
+// flatArrays([['d', 'r', 'a'], ['f', 'y']]) => ['d', 'r', 'a', 'f', 'y']
+// NOTE: You can NOT use the array.flat() method in your code
 
-export function find(array, callback) {
+export function flatArrays(array) {
   // Your code goes here...
-  
+
 }
+
 
 
 // === TEST YOURSELF ===

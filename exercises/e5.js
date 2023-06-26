@@ -1,11 +1,12 @@
-import { data } from "../data/data";
 
-// SPACE DATA EXERCISE 5
-// Return an array with all Planets' names with a massValue greater or equal to a given number (1-7)
-// Return example: ['name1', 'name2', ... , 'nameN']
+// EXERCISE 5
+// Return an array of all bank account holders names
+// Array example: bankAccounts in /data/data.js
+// getAllClientNames(bankAccounts) => ['Kevin', 'Spenser']
 
-export function getPlanetsWithMassValue(data, number) {
+export function getAllClientNames(array) {
   // Your code goes here...
+
 }
 
 

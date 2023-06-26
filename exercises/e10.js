@@ -1,14 +1,12 @@
-import { data } from "../data/data";
+// EXERCISE 10
+// Return an array of account holders names that contains a given letter
+// Array example: bankAccounts in /data/data.js
+// getClientsWithLetterInName(bankAccounts, 'e') => ['Kevin', 'Steven', ...]
 
-// SPACE DATA EXERCISE 10
-// Return a given asteroid object of data
-// Return example: { key1: value1, key2: value2, ... , keyN: valueN }
-
-export function getAsteroidDataByName(data, asteroidName) {
+export function getClientsWithLetterInName(array, letter) {
   // Your code goes here...
+
 }
-
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-10"
